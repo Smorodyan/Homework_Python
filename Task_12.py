@@ -11,10 +11,8 @@ x = int(input('Input x: '))
 y = int(input('Input y: '))
 
 for i in range(x):
-    a = i
     for j in range(y):
-        b = j
-        while a + b == x and a * b == y:
-            print(a, b)
-            break
+        if i + j == x and i * j == y:
+            print(i, j)
+        
 
