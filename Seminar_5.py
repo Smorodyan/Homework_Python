@@ -61,6 +61,7 @@ else:
 # (даже для ввода и вывода).
 # Input: 2 -> 3 4
 # Output: 4 3
+
 def reverse(n):
     return 
 
